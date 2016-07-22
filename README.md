@@ -19,8 +19,10 @@ Software connection between Cycling '74's Max, Arduino compatible hardware, and 
 
 ####in maxuino-gui.maxpat
 - [x] make a chooser between serial and tcp
-- [ ] make a tcp interface with :
-  - [x] ip, port
+- [ ] make a tcp interface with :  
+      - **Work in progress in  RPJ test TCP 1.amxd** (*amxd because I'm on Max4Live... if you need maxpat, open an issue*)
+  - [x] ip, port                    
+      - *There is a bpatcher needed, stored on work_in_progress_TCP\support\ maxuino-gui-choose-serial-ip.maxpat*
   - [x] connect and disconnect button
   - [ ] a security button to desactivate 
     - [ ] the serial / tcp chooser
