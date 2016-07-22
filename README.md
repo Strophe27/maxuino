@@ -11,16 +11,30 @@ Software connection between Cycling '74's Max, Arduino compatible hardware, and 
 ###To do :
 ####in maxuino.maxpat
 - [ ] test with ethernet shield
-- [ ] make something to choose between serial or tcp connection
+- [*] make something to choose between serial or tcp connection
 - [ ] make ip and port entries
 - [ ] make auto init after connected
 - [ ] make autoconnect after disconnect accidentaly
 - [ ] add #0-from-tcp debug patcher
 
-####in maxuino-gui.maxpat and maxuino.amxd (Ableton m4l device)
+####in maxuino-gui.maxpat
+- [*] make a chooser between serial and tcp
+- [ ] make a tcp interface with :
+  - [*] ip, port
+  - [*] connect and disconnect button
+  - [ ] a security button to desactivate 
+    - [ ] the serial / tcp chooser
+    - [ ] the ip, port and connect button
+    - [ ] relese security when disconnect occurs
+  - [ ] connection info (feedback sadam.tcpClient)
+
+####in maxuino.amxd (Ableton m4l device)
 - [ ] make a chooser between serial and tcp
 - [ ] make a tcp interface with :
   - [ ] ip, port
   - [ ] connect and disconnect button
-  - [ ] a security button to desactivate the ip, port and disconnect button
-  - [ ] connection info
+  - [ ] a security button to desactivate 
+    - [ ] the serial / tcp chooser
+    - [ ] the ip, port and connect button
+    - [ ] relese security when disconnect occurs
+  - [ ] connection info (feedback sadam.tcpClient)
