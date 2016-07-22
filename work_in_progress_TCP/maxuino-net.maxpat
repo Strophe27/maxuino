@@ -1,6 +1,6 @@
 {
 	"patcher" : 	{
-		"fileversion" : 1,
+		"fileversion" : 1.1,
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
