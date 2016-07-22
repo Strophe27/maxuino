@@ -11,17 +11,17 @@ Software connection between Cycling '74's Max, Arduino compatible hardware, and 
 ###To do :
 ####in maxuino.maxpat
 - [ ] test with ethernet shield
-- [*] make something to choose between serial or tcp connection
+- [x] make something to choose between serial or tcp connection
 - [ ] make ip and port entries
 - [ ] make auto init after connected
 - [ ] make autoconnect after disconnect accidentaly
 - [ ] add #0-from-tcp debug patcher
 
 ####in maxuino-gui.maxpat
-- [*] make a chooser between serial and tcp
+- [x] make a chooser between serial and tcp
 - [ ] make a tcp interface with :
-  - [*] ip, port
-  - [*] connect and disconnect button
+  - [x] ip, port
+  - [x] connect and disconnect button
   - [ ] a security button to desactivate 
     - [ ] the serial / tcp chooser
     - [ ] the ip, port and connect button
