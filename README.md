@@ -6,7 +6,7 @@ Software connection between Cycling '74's Max, Arduino compatible hardware, and 
 ##22-07-16
 
 ###Done :
-- Full working with NodeMCU v2 with sadam.tcpClient as Max objectand StandardFirmataWifi
+- Full working with NodeMCU v2 with sadam.tcpClient as Max objectand, and StandardFirmataWifi on the Arduino
 
 ###To do :
 ####in maxuino.maxpat
